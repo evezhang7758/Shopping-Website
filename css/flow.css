@@ -1,0 +1,89 @@
+.op.add {
+    margin: 0 auto;
+    margin-bottom: 15px;
+    width: 60px;
+    display: block;
+    cursor: pointer;
+}
+
+ul.flow {
+    margin-bottom: 20px;
+}
+
+ul.flow li {
+    float: left;
+    padding: 13px;
+    width: 200px;
+    height: 300px;
+}
+
+ul.flow li .img {
+    background-position: 50% 50%;
+    width: 100%;
+    height: 186px;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+.desc {
+    background: #ffffff;
+}
+
+ul.flow li .title {
+    /*padding: 5px 10px;*/
+    font-size: 15px;
+    font-weight: normal;
+    display: inline-block;
+    overflow: hidden;
+    max-width: 110px;
+    height: 25px;
+}
+
+ul.flow li .price {
+    display: inline-block;
+    /*padding: 5px 10px;*/
+    font-size: 15px;
+    font-weight: bold;
+}
+
+ul.flow li .info {
+    height: 36px;
+    padding: 0 10px;
+    font-size: 14px;
+    line-height: 27px;
+}
+
+ul.flow li table.info td {
+    text-align: center;
+}
+
+ul.flow li .descr {
+    display: inline-block;
+    margin: 0 0 10px 0;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+}
+
+.opbtn {
+    /*white-space: nowrap;*/
+    /*overflow: hidden;*/
+    text-overflow: ellipsis;
+    width: 65px;
+    height: 24px;
+    cursor: pointer;
+    margin: 0 5px;
+    border: none;
+    color: #343030;
+}
+
+h1.emptyTip {
+    margin: 30px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+h2.title {
+    padding: 5px 0 5px 40px;
+}
